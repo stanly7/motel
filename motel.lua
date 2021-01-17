@@ -7378,8 +7378,8 @@ if text == ("تحديث السورس") and Devmotel(msg) then
 send(msg.chat_id_,msg.id_,'*☑️┇تم التحديث السورس*')
 os.execute('rm -rf motel.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/motel924/motel/master/motel.lua')
-os.execute('wget https://raw.githubusercontent.com/motel924/motel/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/motel924/motel/main/motel.lua')
+os.execute('wget https://raw.githubusercontent.com/motel924/motel/main/start.lua')
 dofile('motel.lua')  
 return false
 end
@@ -8226,7 +8226,7 @@ end
 if Devmotel(msg) then
 local Text = '*👤┇ مرحبا بك في اوامر المطور الجاهزه*'
 local keyboard = {
-{'الاحصائيات ??'},
+{'الاحصائيات 📉'},
 {'تفعيل التواصل 🔰','تعطيل التواصل ➗'},
 {'تنظيف الكروبات 📇','تنظيف المشتركين 🔂'},
 {'تفعيل البوت الخدمي ♨️','تعطيل البوت الخدمي ✖️'},
@@ -8707,8 +8707,8 @@ if text == "تحديث السورس ⚙️" then
 send(msg.chat_id_,msg.id_,'*☑️┇تم تحديث السورس*')
 os.execute('rm -rf motel.lua')
 os.execute('rm -rf start.lua')
-os.execute('wget https://raw.githubusercontent.com/motel924/motel/master/motel.lua')
-os.execute('wget https://raw.githubusercontent.com/motel924/motel/master/start.lua')
+os.execute('wget https://raw.githubusercontent.com/motel924/motel/main/motel.lua')
+os.execute('wget https://raw.githubusercontent.com/motel924/motel/main/start.lua')
 dofile('motel.lua')  
 return false
 end
